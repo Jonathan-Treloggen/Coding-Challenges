@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ 
+    ViewBag.Title = "NotQualified";
+}
+
+<h2>Sorry you didn't Qualify</h2>
+
+<p>But if you click the link below, you can see who did.</p>
+<div>
+  @Html.ActionLink("Back to qualified list", "Index")
+</div>
