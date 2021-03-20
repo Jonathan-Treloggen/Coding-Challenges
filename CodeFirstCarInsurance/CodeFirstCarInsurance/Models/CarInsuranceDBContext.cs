@@ -14,5 +14,6 @@ namespace CodeFirstCarInsurance.Models
         }
 
         public DbSet<InsuranceQualification> InsuranceQualification { get; set; }
+        public DbSet<Admin> Admin { get; set; }
     }
 }
